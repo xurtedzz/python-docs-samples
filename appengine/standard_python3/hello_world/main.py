@@ -25,7 +25,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     """Return a friendly HTTP greeting."""
-    return 'Hello World!, Welcome to 360'
+    return 'Welcome to the home page!\nEric Gordon\n300179450'
     
 @app.route('/about')
 def newpage():
